@@ -1,0 +1,222 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>becc7cf3-a309-4b66-9f72-6d9e2ab5cd96</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>MyProject</Name>
+    <RootNamespace>MyProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Project\" />
+    <Folder Include="Project\myproject\" />
+    <Folder Include="Project\onlinecourse\" />
+    <Folder Include="Project\onlinecourse\migrations\" />
+    <Folder Include="Project\onlinecourse\templates\" />
+    <Folder Include="Project\onlinecourse\templates\onlinecourse\" />
+    <Folder Include="Project\static\" />
+    <Folder Include="Project\static\admin\" />
+    <Folder Include="Project\static\admin\css\" />
+    <Folder Include="Project\static\admin\css\vendor\" />
+    <Folder Include="Project\static\admin\css\vendor\select2\" />
+    <Folder Include="Project\static\admin\fonts\" />
+    <Folder Include="Project\static\admin\img\" />
+    <Folder Include="Project\static\admin\img\gis\" />
+    <Folder Include="Project\static\admin\js\" />
+    <Folder Include="Project\static\admin\js\admin\" />
+    <Folder Include="Project\static\admin\js\vendor\" />
+    <Folder Include="Project\static\admin\js\vendor\jquery\" />
+    <Folder Include="Project\static\admin\js\vendor\select2\" />
+    <Folder Include="Project\static\admin\js\vendor\select2\i18n\" />
+    <Folder Include="Project\static\admin\js\vendor\xregexp\" />
+    <Folder Include="Project\static\media\" />
+    <Folder Include="Project\static\media\course_images\" />
+    <Folder Include="Project\static\onlinecourse\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Project\manage.py" />
+    <Compile Include="Project\myproject\asgi.py" />
+    <Compile Include="Project\myproject\settings.py" />
+    <Compile Include="Project\myproject\urls.py" />
+    <Compile Include="Project\myproject\wsgi.py" />
+    <Compile Include="Project\myproject\__init__.py" />
+    <Compile Include="Project\onlinecourse\admin.py" />
+    <Compile Include="Project\onlinecourse\apps.py" />
+    <Compile Include="Project\onlinecourse\migrations\__init__.py" />
+    <Compile Include="Project\onlinecourse\models.py" />
+    <Compile Include="Project\onlinecourse\tests.py" />
+    <Compile Include="Project\onlinecourse\urls.py" />
+    <Compile Include="Project\onlinecourse\views.py" />
+    <Compile Include="Project\onlinecourse\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Project\LICENSE" />
+    <Content Include="Project\manifest.yml" />
+    <Content Include="Project\onlinecourse\templates\onlinecourse\course_detail_bootstrap.html" />
+    <Content Include="Project\onlinecourse\templates\onlinecourse\course_list_bootstrap.html" />
+    <Content Include="Project\onlinecourse\templates\onlinecourse\exam_result_bootstrap.html" />
+    <Content Include="Project\onlinecourse\templates\onlinecourse\user_login_bootstrap.html" />
+    <Content Include="Project\onlinecourse\templates\onlinecourse\user_registration_bootstrap.html" />
+    <Content Include="Project\Procfile" />
+    <Content Include="Project\README.md" />
+    <Content Include="Project\requirements.txt" />
+    <Content Include="Project\runtime.txt" />
+    <Content Include="Project\static\admin\css\autocomplete.css" />
+    <Content Include="Project\static\admin\css\base.css" />
+    <Content Include="Project\static\admin\css\changelists.css" />
+    <Content Include="Project\static\admin\css\dashboard.css" />
+    <Content Include="Project\static\admin\css\fonts.css" />
+    <Content Include="Project\static\admin\css\forms.css" />
+    <Content Include="Project\static\admin\css\login.css" />
+    <Content Include="Project\static\admin\css\responsive.css" />
+    <Content Include="Project\static\admin\css\responsive_rtl.css" />
+    <Content Include="Project\static\admin\css\rtl.css" />
+    <Content Include="Project\static\admin\css\vendor\select2\LICENSE-SELECT2.md" />
+    <Content Include="Project\static\admin\css\vendor\select2\select2.css" />
+    <Content Include="Project\static\admin\css\vendor\select2\select2.min.css" />
+    <Content Include="Project\static\admin\css\widgets.css" />
+    <Content Include="Project\static\admin\fonts\LICENSE.txt" />
+    <Content Include="Project\static\admin\fonts\README.txt" />
+    <Content Include="Project\static\admin\fonts\Roboto-Bold-webfont.woff" />
+    <Content Include="Project\static\admin\fonts\Roboto-Light-webfont.woff" />
+    <Content Include="Project\static\admin\fonts\Roboto-Regular-webfont.woff" />
+    <Content Include="Project\static\admin\img\calendar-icons.svg" />
+    <Content Include="Project\static\admin\img\gis\move_vertex_off.svg" />
+    <Content Include="Project\static\admin\img\gis\move_vertex_on.svg" />
+    <Content Include="Project\static\admin\img\icon-addlink.svg" />
+    <Content Include="Project\static\admin\img\icon-alert.svg" />
+    <Content Include="Project\static\admin\img\icon-calendar.svg" />
+    <Content Include="Project\static\admin\img\icon-changelink.svg" />
+    <Content Include="Project\static\admin\img\icon-clock.svg" />
+    <Content Include="Project\static\admin\img\icon-deletelink.svg" />
+    <Content Include="Project\static\admin\img\icon-no.svg" />
+    <Content Include="Project\static\admin\img\icon-unknown-alt.svg" />
+    <Content Include="Project\static\admin\img\icon-unknown.svg" />
+    <Content Include="Project\static\admin\img\icon-viewlink.svg" />
+    <Content Include="Project\static\admin\img\icon-yes.svg" />
+    <Content Include="Project\static\admin\img\inline-delete.svg" />
+    <Content Include="Project\static\admin\img\LICENSE" />
+    <Content Include="Project\static\admin\img\README.txt" />
+    <Content Include="Project\static\admin\img\search.svg" />
+    <Content Include="Project\static\admin\img\selector-icons.svg" />
+    <Content Include="Project\static\admin\img\sorting-icons.svg" />
+    <Content Include="Project\static\admin\img\tooltag-add.svg" />
+    <Content Include="Project\static\admin\img\tooltag-arrowright.svg" />
+    <Content Include="Project\static\admin\js\actions.js" />
+    <Content Include="Project\static\admin\js\actions.min.js" />
+    <Content Include="Project\static\admin\js\admin\DateTimeShortcuts.js" />
+    <Content Include="Project\static\admin\js\admin\RelatedObjectLookups.js" />
+    <Content Include="Project\static\admin\js\autocomplete.js" />
+    <Content Include="Project\static\admin\js\calendar.js" />
+    <Content Include="Project\static\admin\js\cancel.js" />
+    <Content Include="Project\static\admin\js\change_form.js" />
+    <Content Include="Project\static\admin\js\collapse.js" />
+    <Content Include="Project\static\admin\js\collapse.min.js" />
+    <Content Include="Project\static\admin\js\core.js" />
+    <Content Include="Project\static\admin\js\inlines.js" />
+    <Content Include="Project\static\admin\js\inlines.min.js" />
+    <Content Include="Project\static\admin\js\jquery.init.js" />
+    <Content Include="Project\static\admin\js\popup_response.js" />
+    <Content Include="Project\static\admin\js\prepopulate.js" />
+    <Content Include="Project\static\admin\js\prepopulate.min.js" />
+    <Content Include="Project\static\admin\js\prepopulate_init.js" />
+    <Content Include="Project\static\admin\js\SelectBox.js" />
+    <Content Include="Project\static\admin\js\SelectFilter2.js" />
+    <Content Include="Project\static\admin\js\urlify.js" />
+    <Content Include="Project\static\admin\js\vendor\jquery\jquery.js" />
+    <Content Include="Project\static\admin\js\vendor\jquery\jquery.min.js" />
+    <Content Include="Project\static\admin\js\vendor\jquery\LICENSE.txt" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\af.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ar.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\az.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\bg.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\bn.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\bs.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ca.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\cs.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\da.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\de.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\dsb.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\el.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\en.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\es.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\et.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\eu.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\fa.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\fi.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\fr.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\gl.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\he.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\hi.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\hr.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\hsb.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\hu.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\hy.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\id.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\is.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\it.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ja.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ka.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\km.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ko.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\lt.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\lv.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\mk.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ms.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\nb.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ne.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\nl.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\pl.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ps.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\pt-BR.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\pt.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ro.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\ru.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sk.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sl.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sq.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sr-Cyrl.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sr.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\sv.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\th.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\tk.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\tr.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\uk.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\vi.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\zh-CN.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\i18n\zh-TW.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\LICENSE.md" />
+    <Content Include="Project\static\admin\js\vendor\select2\select2.full.js" />
+    <Content Include="Project\static\admin\js\vendor\select2\select2.full.min.js" />
+    <Content Include="Project\static\admin\js\vendor\xregexp\LICENSE.txt" />
+    <Content Include="Project\static\admin\js\vendor\xregexp\xregexp.js" />
+    <Content Include="Project\static\admin\js\vendor\xregexp\xregexp.min.js" />
+    <Content Include="Project\static\media\course_images\django.png" />
+    <Content Include="Project\static\media\course_images\onlinecourse_app_er.png" />
+    <Content Include="Project\static\media\course_images\python.png" />
+    <Content Include="Project\static\onlinecourse\course.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
