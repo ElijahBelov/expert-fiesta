@@ -208,6 +208,7 @@
     <Content Include="Project\static\media\course_images\django.png" />
     <Content Include="Project\static\media\course_images\onlinecourse_app_er.png" />
     <Content Include="Project\static\media\course_images\python.png" />
+    <Content Include="Project\static\media\course_images\question.png" />
     <Content Include="Project\static\onlinecourse\course.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
